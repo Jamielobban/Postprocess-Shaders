@@ -9121,6 +9121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1685216232}
   - component: {fileID: 1685216233}
+  - component: {fileID: 1685216234}
   m_Layer: 0
   m_Name: InputManager
   m_TagString: Untagged
@@ -9155,6 +9156,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 919b2582b24e6084bb21f2024043a2ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1685216234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685216231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f553573a2855524c819a0ed91925927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 2100000, guid: fa779a085012f0249bf162ee2970bb6d, type: 2}
+  rightClickAction: {fileID: 6677484515322969841, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  waveProp: _WaveLength
+  bleedProp: _BleedValue
+  baseWave: 0
+  targetWave: 500
+  baseBleed: 38
+  targetBleed: 100
+  duration: 1.5
+  ease: 4
+  startAtBaseOnPlay: 1
+  toggleOnClick: 1
 --- !u!1 &1686952173
 GameObject:
   m_ObjectHideFlags: 0
