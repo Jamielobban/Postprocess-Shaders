@@ -9172,14 +9172,18 @@ MonoBehaviour:
   rightClickAction: {fileID: 6677484515322969841, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   waveProp: _WaveLength
   bleedProp: _BleedValue
+  enabledProp: _Enabled
   baseWave: 0
-  targetWave: 500
+  targetWave: 225
   baseBleed: 38
   targetBleed: 100
-  duration: 1.5
-  ease: 4
+  waveDuration: 1.25
+  waveEase: 4
+  bleedDuration: 0.6
+  bleedEase: 4
+  enabledDuration: 0.2
+  enabledEase: 1
   startAtBaseOnPlay: 1
-  toggleOnClick: 1
 --- !u!1 &1686952173
 GameObject:
   m_ObjectHideFlags: 0
