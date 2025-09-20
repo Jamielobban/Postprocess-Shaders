@@ -8038,6 +8038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1128698010}
+  - component: {fileID: 1128698011}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -8063,6 +8064,34 @@ Transform:
   - {fileID: 1322777370}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1128698011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128698009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f553573a2855524c819a0ed91925927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 2100000, guid: 21b75781ac105d74cb72888040ec527b, type: 2}
+  rightClickAction: {fileID: 6677484515322969841, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  waveProp: _WaveLength
+  bleedProp: _BleedValue
+  enabledProp: _Enabled
+  baseWave: 0
+  targetWave: 175
+  baseBleed: 100
+  targetBleed: 100
+  waveDuration: 2
+  waveEase: 2
+  bleedDuration: 0.6
+  bleedEase: 4
+  enabledDuration: 0.2
+  enabledEase: 1
+  startAtBaseOnPlay: 1
 --- !u!1 &1139860078
 GameObject:
   m_ObjectHideFlags: 0
@@ -9487,7 +9516,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685216231}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f553573a2855524c819a0ed91925927, type: 3}
   m_Name: 
@@ -9498,10 +9527,10 @@ MonoBehaviour:
   bleedProp: _BleedValue
   enabledProp: _Enabled
   baseWave: 0
-  targetWave: 200
+  targetWave: 175
   baseBleed: 38
   targetBleed: 100
-  waveDuration: 1.25
+  waveDuration: 1.75
   waveEase: 4
   bleedDuration: 0.6
   bleedEase: 4
