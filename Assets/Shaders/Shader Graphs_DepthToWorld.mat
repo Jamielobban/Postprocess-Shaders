@@ -39,33 +39,35 @@ Material:
     m_Floats:
     - _BleedValue: 38
     - _Constant: -47.3
-    - _Constant2: 43762.7
+    - _Constant2: 43767.47
     - _Enabled: 0
     - _FillStrength: 1
     - _GapAA: 7.57
     - _GapScale: 0.04
     - _GapSpeed: 1.28
     - _GapThreshold: 2.78
-    - _Jitter: 2.14
+    - _Jitter: 1.09
     - _LeadSharp: 6.49
     - _LineCount: 100
-    - _LineWidth: 0.08
-    - _NoiseSpeed: 5.86
-    - _NoiseValue: 707.4
-    - _PhaseAmplitude: -0.29
+    - _LineWidth: 0
+    - _NoiseSpeed: 0
+    - _NoiseValue: 0
+    - _PhaseAmplitude: 0
     - _Radius: 14
     - _Scalar: 10
     - _ScanDistance: 18.06
     - _ScanWidth: -2.59
-    - _SoftWidth: 0.14
+    - _SoftWidth: 0.32
     - _Steps: 18.83
     - _TimeMultiplier: 7.1
     - _Value1: 1.29
     - _Value2: 2.29
     - _WaveLength: 0
+    - _WaveMax: 100
+    - _WaveMin: 0
     m_Colors:
     - _InnerColor: {r: 1, g: 1, b: 1, a: 1}
-    - _LineColor: {r: 1825.214, g: 1825.214, b: 1825.214, a: 1}
+    - _LineColor: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
     - _Position: {r: 0, g: 0, b: 0, a: 0}
     - _RingColor: {r: 1, g: 0, b: 0, a: 1}
     - _SmoothstepColor: {r: 1, g: 1, b: 1, a: 1}
