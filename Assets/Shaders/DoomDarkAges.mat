@@ -37,12 +37,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BleedValue: 37
+    - _BleedValue: 39.2
     - _Constant: 0
     - _Constant2: 1.4
     - _Enabled: 0
     - _FillStrength: 0.42
-    - _GridScale: 1.18
+    - _GridScale: 4
     - _Jitter: 0
     - _LeadSoft: 0.48
     - _LineCount: 0
@@ -62,6 +62,6 @@ Material:
     - _GridColor: {r: 5.340313, g: 1.2032984, b: 0, a: 1}
     - _HardTest: {r: 3.4415908, g: 0.7928272, b: 0, a: 1}
     - _LineColor: {r: 1024, g: 1024, b: 1024, a: 1}
-    - _Position: {r: 0, g: 0, b: 0, a: 0}
+    - _Position: {r: 48.55, g: -2.802, b: -8.95, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

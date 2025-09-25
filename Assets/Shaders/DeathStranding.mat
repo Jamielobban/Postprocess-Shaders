@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DeathStranding
+  m_Shader: {fileID: -6465566751694194690, guid: 9cba6dcf3e47b594585c1bd5d651f3e1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _AA_Scale_1
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AAStrength: 1
+    - _AA_Scale: 0
+    - _AA_ScaleLine: 1.45
+    - _AA_Scale_1: 1.77
+    - _BleedValue: 63.2
+    - _BlendSharpness: 0.12
+    - _ClimbAmount: 0.59
+    - _ConeFeatherDeg: 60
+    - _ConeHalfAngleDeg: 60
+    - _Enabled: 1
+    - _FillStrength: 1.41
+    - _GridScale: 0
+    - _HeightScale: 13.56
+    - _LeadSoft: 0.54
+    - _LineDensity: 0.19
+    - _LineOffset: 2.71
+    - _LineSpacing: 2.93
+    - _LineWidth: 0
+    - _PixelAA: 0
+    - _RingWidth: 0.36
+    - _Scalar: 10
+    - _SlopeEnd: 0.7
+    - _SlopeStart: 0.3
+    - _SoftWidth: 0
+    - _StripeBleed: 0.01
+    - _StripeThreshold: 0.97
+    - _StripeWidth: 0.13
+    - _TrailSoft: 0.96
+    - _TrailWidth: 0.81
+    - _WaveLength: 90
+    - _feather: 0.85
+    - _threshold: 1.75
+    - _threshold2: -1.91
+    - _timesGround: 93.2
+    m_Colors:
+    - _AxisMask: {r: 0, g: 0, b: 0, a: 0}
+    - _GridColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HardTest: {r: 1, g: 1, b: 1, a: 1}
+    - _Position: {r: 0, g: 0, b: 0, a: 0}
+    - _RandomColor: {r: 1, g: 0, b: 0, a: 1}
+    - _RandomColor2: {r: 0.44949198, g: 1, b: 0, a: 1}
+    - _RandomColor3: {r: 1, g: 1, b: 1, a: 1}
+    - _ScanForward: {r: 0, g: 0, b: 0.18, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

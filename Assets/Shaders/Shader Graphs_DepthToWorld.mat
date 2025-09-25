@@ -63,12 +63,12 @@ Material:
     - _Value1: 1.29
     - _Value2: 2.29
     - _WaveLength: 0
-    - _WaveMax: 100
+    - _WaveMax: 125
     - _WaveMin: 0
     m_Colors:
     - _InnerColor: {r: 1, g: 1, b: 1, a: 1}
     - _LineColor: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
-    - _Position: {r: 0, g: 0, b: 0, a: 0}
+    - _Position: {r: -105, g: 77, b: -35, a: 0}
     - _RingColor: {r: 1, g: 0, b: 0, a: 1}
     - _SmoothstepColor: {r: 1, g: 1, b: 1, a: 1}
     - _StepColor: {r: 0.6918832, g: 0.8679245, b: 0.70246416, a: 1}
