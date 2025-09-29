@@ -66,7 +66,7 @@ Material:
     - _StripeWidth: 0.13
     - _TrailSoft: 0.96
     - _TrailWidth: 0.81
-    - _WaveLength: 90
+    - _WaveLength: 114
     - _feather: 0.85
     - _threshold: 1.75
     - _threshold2: -1.91
