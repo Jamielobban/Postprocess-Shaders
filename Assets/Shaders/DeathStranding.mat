@@ -42,7 +42,7 @@ Material:
     - _AA_ScaleLine: 1.45
     - _AA_Scale_1: 1.77
     - _BleedValue: 63.2
-    - _BlendSharpness: 0.12
+    - _BlendSharpness: 5.47
     - _ClimbAmount: 0.59
     - _ConeFeatherDeg: 60
     - _ConeHalfAngleDeg: 60
@@ -66,11 +66,11 @@ Material:
     - _StripeWidth: 0.13
     - _TrailSoft: 0.96
     - _TrailWidth: 0.81
-    - _WaveLength: 114
-    - _feather: 0.85
+    - _WaveLength: 195
+    - _feather: -0.68
     - _threshold: 1.75
-    - _threshold2: -1.91
-    - _timesGround: 93.2
+    - _threshold2: 1.03
+    - _timesGround: 1
     m_Colors:
     - _AxisMask: {r: 0, g: 0, b: 0, a: 0}
     - _GridColor: {r: 0, g: 0, b: 0, a: 1}
