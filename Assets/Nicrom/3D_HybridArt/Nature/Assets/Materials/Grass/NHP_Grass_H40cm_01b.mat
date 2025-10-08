@@ -76,8 +76,8 @@ Material:
     - _EnableSlopeAjustment: 1
     - _EnableSlopeCorrection: 1
     - _EnvironmentReflections: 1
-    - _MBAmplitude: 10
-    - _MBAmplitudeOffset: 4
+    - _MBAmplitude: 0
+    - _MBAmplitudeOffset: 0
     - _MBDefaultBending: 0
     - _MBFrequency: 0.4
     - _MBFrequencyOffset: 0.5
