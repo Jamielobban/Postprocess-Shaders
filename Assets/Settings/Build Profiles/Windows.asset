@@ -22,8 +22,10 @@ MonoBehaviour:
   m_Scenes:
   - m_enabled: 0
     m_path: Assets/Scenes/SampleScene.unity
-  - m_enabled: 1
+  - m_enabled: 0
     m_path: Assets/Scenes/Torus.unity
+  - m_enabled: 1
+    m_path: Assets/Ornamental Flower Set/Resources/Furniture01/Scenes/SampleScene.unity
   m_ScriptingDefines:
   - MOREMOUNTAINS_NICEVIBRATIONS_INSTALLED
   m_PlayerSettingsYaml:
@@ -977,7 +979,7 @@ MonoBehaviour:
     - line: '|   qnxGraphicConfPath: '
     - line: '|   apiCompatibilityLevel: 6'
     - line: '|   captureStartupLogs: {}'
-    - line: '|   activeInputHandler: 1'
+    - line: '|   activeInputHandler: 2'
     - line: '|   windowsGamepadBackendHint: 0'
     - line: '|   cloudProjectId: 56d32786-9a14-4e59-9391-196beb952457'
     - line: '|   framebufferDepthMemorylessMode: 0'

@@ -25,20 +25,20 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _BlockProb: 0.367
-    - _BlockShift: 64
-    - _BlockSize: 8.4
+    - _BlockProb: 0.4
+    - _BlockShift: 17.1
+    - _BlockSize: 13
     - _ChromaAmount: 8
-    - _GlitchAmount: 0.565
-    - _LineJitterAmp: 24.9
-    - _LineJitterProb: 0.876
-    - _RowChangeRate: 5.9
-    - _RowHeight: 9.8
-    - _RowProb: 0.661
-    - _ScanlineAmount: 0
-    - _ScanlineDensity: 200
-    - _StutterProb: 0.085
-    - _StutterStrength: 0.424
+    - _GlitchAmount: 0.498
+    - _LineJitterAmp: 32.5
+    - _LineJitterProb: 0.525
+    - _RowChangeRate: 5
+    - _RowHeight: 8
+    - _RowProb: 0.591
+    - _ScanlineAmount: 1
+    - _ScanlineDensity: 2000
+    - _StutterProb: 0.233
+    - _StutterStrength: 0.458
     m_Colors:
     - _Tint: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

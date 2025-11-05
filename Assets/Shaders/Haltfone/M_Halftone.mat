@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Halftone
+  m_Shader: {fileID: 4800000, guid: 2baeca12f44d8794299bcb0696698a2e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _BLENDMODE_MULTIPLYSRC
+  - _MODE_DOTS
+  m_InvalidKeywords:
+  - _USEDEPTHFADE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AngleDeg: 40
+    - _BlendMode: 1
+    - _Contrast: 2
+    - _FarFade: 60
+    - _Invert: 0
+    - _Mode: 0
+    - _NearFade: 20
+    - _ScalePx: 20.3
+    - _UseDepthFade: 1
+    m_Colors:
+    - _BgColor: {r: 1, g: 1, b: 1, a: 1}
+    - _InkColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

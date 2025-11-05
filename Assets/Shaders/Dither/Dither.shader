@@ -9,7 +9,7 @@ Shader "Custom/FullscreenDitherURP_Mono_Readable"
 
     SubShader
     {
-        Tags { "RenderPipeline"="UniversalRenderPipeline" "Queue"="Transparent" "RenderType"="Opaque" }
+        Tags { "RenderPipeline"="UniversalPipeline" "Queue"="Transparent" "RenderType"="Opaque" }
 
         Pass
         {

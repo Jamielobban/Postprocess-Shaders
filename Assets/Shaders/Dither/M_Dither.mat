@@ -31,7 +31,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DitherScale: 2
+    - _DitherScale: 1
     - _DitherStrength: 1
     - _Levels: 2
     - _Monochrome: 1

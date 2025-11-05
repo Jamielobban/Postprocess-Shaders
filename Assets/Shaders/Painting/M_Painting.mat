@@ -14,7 +14,6 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _ENABLEEFFECT_ON
-  - _USEDISKKERNEL_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -34,9 +33,9 @@ Material:
     - _EnableEffect: 1
     - _KernelSize: 17
     - _RegionMode: 1
-    - _RotationDegrees: 100
+    - _RotationDegrees: 73
     - _Sectors: 6
-    - _UseDiskKernel: 1
+    - _UseDiskKernel: 0
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
