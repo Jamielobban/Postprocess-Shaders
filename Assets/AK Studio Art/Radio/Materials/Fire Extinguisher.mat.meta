@@ -1,7 +1,8 @@
 fileFormatVersion: 2
-guid: 5dde9ff5d63ab4c41a83186f3c5ff13d
-DefaultImporter:
+guid: 3be02790b300c7149932c31bb74a23b0
+NativeFormatImporter:
   externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -10,5 +11,5 @@ AssetOrigin:
   productId: 230711
   packageName: Fire Extinguisher Realistic
   packageVersion: 1.0
-  assetPath: Assets/AK Studio Art/Radio/Scenes/Example.unity
+  assetPath: Assets/AK Studio Art/Radio/Materials/Fire Extinguisher.mat
   uploadId: 520775

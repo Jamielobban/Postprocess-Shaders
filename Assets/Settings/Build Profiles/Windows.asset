@@ -24,8 +24,12 @@ MonoBehaviour:
     m_path: Assets/Scenes/SampleScene.unity
   - m_enabled: 0
     m_path: Assets/Scenes/Torus.unity
-  - m_enabled: 1
+  - m_enabled: 0
     m_path: Assets/Ornamental Flower Set/Resources/Furniture01/Scenes/SampleScene.unity
+  - m_enabled: 0
+    m_path: Assets/AK Studio Art/Coffee Cup/Scenes/Example.unity
+  - m_enabled: 1
+    m_path: Assets/AK Studio Art/Bust Of Sappho/Scenes/Demo.unity
   m_ScriptingDefines:
   - MOREMOUNTAINS_NICEVIBRATIONS_INSTALLED
   m_PlayerSettingsYaml:

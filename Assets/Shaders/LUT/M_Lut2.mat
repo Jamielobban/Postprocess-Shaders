@@ -12,8 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _USEDITHER_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -27,11 +26,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _Contribution: 1
-    - _DitherStrength: 0.269
-    - _T1: 0.057
-    - _T2: 0.141
-    - _T3: 0.154
-    - _UseDither: 1
+    - _DitherStrength: 0
+    - _T1: 0.032
+    - _T2: 0.231
+    - _T3: 0.545
+    - _UseDither: 0
     m_Colors:
     - _Color0: {r: 0.086774625, g: 0.11320752, b: 0.050729785, a: 1}
     - _Color1: {r: 0.27499998, g: 0.36099997, b: 0.12199997, a: 1}

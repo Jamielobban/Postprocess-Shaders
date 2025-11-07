@@ -8,11 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Lut
-  m_Shader: {fileID: 4800000, guid: f07c188498a6bd8488571b361d0fcae3, type: 3}
-  m_Parent: {fileID: 0}
+  m_Shader: {fileID: 4800000, guid: fb091b75ff6f6f44ca20739918ae9621, type: 3}
+  m_Parent: {fileID: 2100000, guid: 610834e957cea4e45a824c77bdccf541, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _USEDITHER_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -22,16 +23,16 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _PaletteTex:
-        m_Texture: {fileID: 2800000, guid: c8b24b3fb70f2c544acb561032282df9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
     - _Contribution: 1
-    - _PaletteWidth: 128
-    - _RowIndex: 0
-    m_Colors: []
+    - _DitherStrength: 0
+    - _T1: 0
+    - _T2: 0.5
+    - _T3: 0.75
+    - _UseDither: 1
+    m_Colors:
+    - _Color0: {r: 0.10599997, g: 0.14899996, b: 0.046999976, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

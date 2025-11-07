@@ -26,7 +26,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Bands: 16
+    - _Bands: 32
     - _Perceptual: 1
     m_Colors:
     - _Tint: {r: 1, g: 1, b: 1, a: 1}

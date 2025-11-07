@@ -11,10 +11,18 @@ Material:
   m_Shader: {fileID: 4800000, guid: 320c0b2d011356d4485d8f3ef9d3e73e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _PATTERN_BAYER2X2
   m_InvalidKeywords:
   - _MONOCHROME_ON
+  - _PATTERN_HALFTONECIRCLES
+  - _PATTERN_STARBURST
+  - _PATTERN_TRIANGULAR
   - _USEBLUENOISE_ON
+  - _USEDEPTHMASK_ON
+  - _USEDEPTHSCALE_ON
+  - _USEEDGEMASK_ON
+  - _USEQUANTIZE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -26,16 +34,42 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BlueNoiseTex:
-        m_Texture: {fileID: 2800000, guid: 560f97bc447a802499a45c3efbbea167, type: 3}
+        m_Texture: {fileID: 2800000, guid: c1275323e6f00d240970de428ca9fe70, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DitherScale: 1
+    - _BlueNoiseScale: 214
+    - _BlueNoiseTiles: 790
+    - _DitherScale: 2
     - _DitherStrength: 1
-    - _Levels: 2
+    - _EdgeAmount: 0.919
+    - _FarOff: 109.5
+    - _Gain: 0.778
+    - _Gamma: 0.42
+    - _HalftoneCellPx: 6
+    - _Invert: 0
+    - _Levels: 4
+    - _Lift: -0.108
+    - _LineAngleDeg: 3.1
+    - _LineFreq: 0.5
     - _Monochrome: 1
+    - _NearOn: 0
+    - _Pattern: 0
+    - _ScaleFar: 4.27
+    - _ScaleNear: 0.5
+    - _Seed: 0
+    - _TemporalAmount: 0.833
+    - _ThreshAmplitude: 0.177
+    - _ThreshCenter: 0.249
+    - _TilesPerHeight: 1024
     - _UseBlueNoise: 1
+    - _UseDepthMask: 1
+    - _UseDepthScale: 1
+    - _UseEdgeMask: 1
+    - _UseQuantize: 1
+    - _UseRGBChannels: 0
+    - _UseTemporal: 0
     m_Colors:
     - _Tint: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

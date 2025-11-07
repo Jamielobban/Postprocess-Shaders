@@ -31,9 +31,9 @@ Material:
     - _BitsG: 4
     - _BitsR: 4
     - _Blend: 1
-    - _BlockPx: 8
+    - _BlockPx: 4.4
     - _BorderBoost: 0
-    - _ChromaShift: 2
+    - _ChromaShift: 0.76
     - _Dither: 0
     - _DitherStrength: 0.25
     - _FarFade: 60
@@ -43,7 +43,7 @@ Material:
     - _Spectral: 3
     - _Threshold: 0
     - _UseDepthFade: 1
-    - _Variation: 0.238
+    - _Variation: 0.071
     m_Colors:
     - _Tint: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

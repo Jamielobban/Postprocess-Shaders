@@ -14,6 +14,7 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _KEEPSQUARE_ON
+  - _OVERLAYMULTIPLY_ON
   - _OVERLAYPERCELL_ON
   - _OVERLAYUSEPOINT_ON
   m_LightmapFlags: 4
@@ -33,7 +34,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _KeepSquare: 1
-    - _OverlayMultiply: 0
+    - _OverlayMultiply: 1
     - _OverlayOpacity: 1
     - _OverlayPerCell: 1
     - _OverlayUsePoint: 1
@@ -42,7 +43,7 @@ Material:
     - _OverlayOffset: {r: 1, g: 1, b: 0, a: 0}
     - _OverlayRepeat: {r: 1, g: 1, b: 0, a: 0}
     - _OverlayTint: {r: 1, g: 1, b: 1, a: 1}
-    - _PixelSizeXY: {r: 10, g: 1, b: 0, a: 0}
+    - _PixelSizeXY: {r: 16, g: 1, b: 0, a: 0}
     - _Tint: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
