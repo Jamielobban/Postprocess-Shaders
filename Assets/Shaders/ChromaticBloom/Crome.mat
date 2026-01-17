@@ -31,9 +31,9 @@ Material:
     - _FarFade: 60
     - _Intensity: 1.12
     - _NearFade: 20
-    - _RadiusPx: 8.97
+    - _RadiusPx: 8.39
     - _Spectral: 3
-    - _Threshold: 5
+    - _Threshold: 4.16
     - _UseDepthFade: 1
     m_Colors:
     - _Tint: {r: 1, g: 1, b: 1, a: 1}

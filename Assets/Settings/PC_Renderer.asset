@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
   m_Name: Dither
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.FullScreenPassRendererFeature
-  m_Active: 1
+  m_Active: 0
   injectionPoint: 550
   fetchColorBuffer: 1
   requirements: 2
-  passMaterial: {fileID: 2100000, guid: 26c26d79731146c438c9ddbc8d88491a, type: 2}
+  passMaterial: {fileID: 2100000, guid: 4c73ca042ba6a0448854a6e593daf574, type: 2}
   passIndex: 0
   bindDepthStencilAttachment: 0
   m_Version: 1
@@ -175,11 +175,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
   m_Name: FullScreenPassRendererFeature
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.FullScreenPassRendererFeature
-  m_Active: 0
+  m_Active: 1
   injectionPoint: 550
   fetchColorBuffer: 1
   requirements: 0
-  passMaterial: {fileID: 2100000, guid: d647bf0999e2ce346ae0f02cea156134, type: 2}
+  passMaterial: {fileID: 2100000, guid: ac031e90043023d4a82b0beeab24332c, type: 2}
   passIndex: 0
   bindDepthStencilAttachment: 0
   m_Version: 1
@@ -199,7 +199,7 @@ MonoBehaviour:
   injectionPoint: 600
   fetchColorBuffer: 1
   requirements: 0
-  passMaterial: {fileID: 2100000, guid: 4ffe850227c33f048beee83bc3425dc6, type: 2}
+  passMaterial: {fileID: 2100000, guid: 4c73ca042ba6a0448854a6e593daf574, type: 2}
   passIndex: 0
   bindDepthStencilAttachment: 0
   m_Version: 1
@@ -245,7 +245,7 @@ MonoBehaviour:
   injectionPoint: 600
   fetchColorBuffer: 1
   requirements: 0
-  passMaterial: {fileID: 2100000, guid: ac031e90043023d4a82b0beeab24332c, type: 2}
+  passMaterial: {fileID: 2100000, guid: 83f82e49919e1cd4091fe2fab2e9ef49, type: 2}
   passIndex: 0
   bindDepthStencilAttachment: 0
   m_Version: 1
