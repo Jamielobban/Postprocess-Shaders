@@ -61,3 +61,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+# Ignore vendor demo scene that exceeds GitHub limit
+Assets/Nicrom/3D_HybridArt/Nature/Demo/Scenes/NHP_ThreeBiomes.unity
+
